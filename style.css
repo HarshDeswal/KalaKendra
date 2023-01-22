@@ -1,0 +1,28 @@
+body{
+    background-image: url("/images/red.png");
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+}
+.kala-kendra{
+    font-size: 40px;
+    color: #FFFFFF;
+    height: 44px;
+    width: 286px;
+    padding-left: 40px;
+}
+.login{
+    word-spacing: 10px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+button{
+    background: #720201;
+    color: #FFFFFF;
+    border-radius: 18px;
+    height: 42px;
+    width: 130px;
+}
+
