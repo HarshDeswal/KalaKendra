@@ -6,11 +6,15 @@ body{
     align-items: center;
 }
 .kala-kendra{
-    font-size: 40px;
+    font-size: 30px;
+    align-items: center;
+    font-style: normal;
+    font-family: 'Aclonica';
     color: #FFFFFF;
     height: 44px;
     width: 286px;
     padding-left: 40px;
+    padding-top: 10px;
 }
 .login{
     word-spacing: 10px;
@@ -25,4 +29,68 @@ button{
     height: 42px;
     width: 130px;
 }
+.designs{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0px;
 
+}
+.designs > .design-1{
+    flex: 3 0 0%;
+    text-align:left;
+}
+.design-1 > img{
+    vertical-align:top;/* here */
+    max-width: 100%;
+    max-height: 400px;
+    margin-left: -10px;
+    
+}
+.designs > .text {
+    flex: 6.5 0 0%;
+    margin:auto 0;
+    text-align: center;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-family: 'Aclonica';
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79px;
+}
+.designs > .design-2{
+    position: absolute;
+    flex: 3 0 0%;
+    margin-left: auto;
+    right: 0;
+}
+.design-2 > img{
+    vertical-align:top;/* here */
+    max-width: 100%;
+    max-height: 400px;
+    
+}
+.text button{
+    margin-top: 10px;
+    background: #FFC7C7;
+    color: #3A3A3A;
+    font-weight: 400;
+    font-size: 24px;
+    align-items: center;
+    font-style: normal;
+    font-family: 'Aclonica';
+    height: 82px;
+    width: 250px;
+    border-radius: 40px;
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0px;
+}
+.players img{
+    max-height: 250px;
+
+}
