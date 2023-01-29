@@ -1,0 +1,70 @@
+body{
+    background-image: url("/images/red.png");
+    overflow: hidden;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.img1{
+    position: absolute;
+    width: 351.44000000000005px;
+    height: 352.03999999999996px;
+    left: -98px;
+    top: 13.079999999999984px;
+    margin-top: -64px;
+    top: -51.92px;
+}
+.img1 > img{
+    width: 350px;
+}
+.form{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0.25) 0%, rgba(217, 217, 217, 0.15) 103.37%);
+    width: 418px;
+    border: 1px;
+    padding: 50px;
+    margin: 61px;
+    border-radius: 10px;
+    height: 450px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0.19) 0%, rgba(217, 217, 217, 0.21) 104.68%);
+    border-radius: 15px;
+    height: 44px;
+    border: none;
+}
+.form label{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter';
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.form  a{
+    margin-top: 70px;
+    margin-left: 123px;
+}
+.form a > button{
+    background: #630000;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 42px;
+    width: 175px;
+}
+.img2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1320px;
+    margin-top: 495px;
+}
+.img2 > img{
+    width: 350px;
+}
