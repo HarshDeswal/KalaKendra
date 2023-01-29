@@ -32,18 +32,36 @@ body{
     display: flex;
     flex-direction: column;
 }
-.form input{
-    background: linear-gradient(90deg, rgba(217, 217, 217, 0.19) 0%, rgba(217, 217, 217, 0.21) 104.68%);
-    border-radius: 15px;
-    height: 44px;
-    border: none;
-}
+
 .form label{
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Inter';
     padding-left: 5px;
     padding-bottom: 10px;
+}
+.password-container{
+    position: relative;
+
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+  .form input{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0.19) 0%, rgba(217, 217, 217, 0.21) 104.68%);
+    border-radius: 15px;
+    height: 44px;
+    border: none;
 }
 .form  a{
     margin-top: 70px;
@@ -67,4 +85,8 @@ body{
 }
 .img2 > img{
     width: 350px;
+}
+form i{
+    cursor: pointer;
+    
 }
