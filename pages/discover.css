@@ -1,0 +1,46 @@
+body{
+        background-image: url("/images/red.png");
+        overflow: hidden;
+}
+.logo{
+    margin-left: 20px;
+}
+figcaption{
+    color: #FFFFFF;
+    font: 1em;
+}
+.search-box{
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -7px;
+    height: 67px;
+    width: 600px;
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 25%;
+    left: -2%;
+    cursor: pointer;
+    color: #FFFFFF;
+    size: 40px;
+}
+.search-box input{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0.19) 0%, rgba(217, 217, 217, 0.21) 104.68%);
+    width: 100%;
+    margin: -2px 14px 21px -27px;
+    padding-left: 40px;
+    border-radius: 25px;
+    border: none;
+    border-width: 1px;
+    
+}
+.search-box input::placeholder{
+    color: #FFFFFF;
+}
+.btn-light{
+    margin: 0px 0px 20px -5px;
+    width: 170px;
+    border-radius: 10px;
+}
