@@ -4,6 +4,7 @@ body{
 }
 .logo{
     margin-left: 20px;
+    color: #FFC7C7;
 }
 figcaption{
     color: #FFFFFF;
@@ -12,10 +13,12 @@ figcaption{
 .search-box{
     display: flex;
     position: relative;
-    margin-left: 100px;
+    margin-left: 291px;
     margin-top: -7px;
     height: 67px;
     width: 600px;
+    justify-content: space-between;
+
     
 }
 .fa-magnifying-glass{
@@ -39,8 +42,61 @@ figcaption{
 .search-box input::placeholder{
     color: #FFFFFF;
 }
+.fa-microphone{
+    position: absolute;
+    top: 9%;
+    cursor: pointer;
+    size: 0px;
+    color: #FFFFFF;
+    margin-left: 469px;
+}
+.fa-microphone:hover{
+    color: rgba(0, 0, 0, 0.5);;
+}
 .btn-light{
     margin: 0px 0px 20px -5px;
-    width: 170px;
+    width: 93px;
+    color: #FFFFFF;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.img-txt{
+    width: 392px;
+    height: 63px ;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.box-1 p{
+    color: #FFC7C7;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-1 .btn-light{
+    width: 160px;
+    height: 60px;
+    margin-left:20px ;
+    margin-top: 25px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.design-2 img{
+    /* vertical-align:top;here */
+    margin-top: -210px;
+    margin-left: 0px;
+    width: 250px;
+    height: 400px;
+    
+}
+.slider{
+    max-width: 580px;
+}
+.carousel-item img{
+    width: 580px;
+    height: 426px;
 }
