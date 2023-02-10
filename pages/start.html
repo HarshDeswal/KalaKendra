@@ -17,9 +17,11 @@
                 <a class="navbar-brand" href="#"><img class ="logo" src="/images/Vector.png" alt=""><figcaption class="caption" >KALA KENDRA</figcaption></a>
                 <form class="d-flex pt-4 justify-content-between">
                     <div class="search-box">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input  type="text" placeholder="Search">
-                        <i class="fa-solid fa-microphone fa-2x"></i>
+                      <div class="voice">
+                        <!-- <i class="fa-solid fa-magnifying-glass" ></i> -->
+                        <input id="transcript" type="text" placeholder="Search">
+                        <i class="fa-solid fa-microphone fa-2x" onclick="startDictation()"></i>
+                        </div>
                         <button class="btn btn-light" type="button">Search</button>
                     </div>
                 </form>
@@ -31,54 +33,47 @@
         <article>
           <img src="/images/start-1.png" alt="Sample photo">
           <div class="text">
-            <h3>Seamlessly visualize quality</h3>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-            <button>Here's why</button>
+            <h4>Modern Art</h4>
+            <button>View</button>
           </div>
         </article>
         <article>
           <img src="/images/start-2.png" alt="Sample photo">
           <div class="text">
-            <h3>Completely Synergize</h3>
-            <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
-            <button>Here's how</button>
+            <h4>Traditional art</h4>
+            <button>View</button>
           </div>
         </article>
         <article>
           <img src="/images/start-3.png" alt="Sample photo">
           <div class="text">
-            <h3>Dynamically Procrastinate</h3>
-            <p>Completely synergize resource taxing relationships via premier niche markets.</p>
-            <button>Read more</button>
+            <h4>Graphic Designer</h4>
+            <button>View</button>
           </div>
         </article>
         <article>
           <img src="/images/start-4.png" alt="Sample photo">
           <div class="text">
-            <h3>Best in class</h3>
-            <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
-            <button>Just do it...</button>
+            <h4>UX/UI Designer</h4>
+            <button>View</button>
           </div>
         </article>
         <article>
           <img src="/images/start-5.png" alt="Sample photo">
           <div class="text">
-            <h3>Dynamically innovate supply chains</h3>
-            <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
-            <button>Here's why</button>
+            <h4>Singing </h4>
+            <button>View</button>
           </div>
         </article>
         <article>
           <img src="/images/start-6.png" alt="Sample photo">
           <div class="text">
-            <h3>Sanity check</h3>
-            <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
-            <button>Stop here</button>
+            <h4>Dancing</h4>
+            <button>View</button>
           </div>
         </article>
       </main>
     
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
-</script>
+<script src="/pages/voiceSearch.js"></script>
 </html>
