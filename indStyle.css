@@ -1,10 +1,9 @@
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-                    only screen and (min--moz-device-pixel-ratio: 2),
-                    only screen and (-o-min-device-pixel-ratio: 2/1),
-                    only screen and (min-device-pixel-ratio: 2)
-{  
-    html { font-size:100%; }
-    
+@media only screen and (max-width: 372px)
+
+{
+    html { 
+        overflow-x: hidden;
+        font-size:50%; }
     body{
         overflow: hidden;
         font-size: 1rem;
@@ -12,39 +11,60 @@
     }
     .navbar{
         position: relative;
-        justify-content: center;
+        display: flex;
+        justify-content:space-between;
         align-items: center;
+        
+        min-width: 50%;
+        min-height: auto;
     }
     .kala-kendra{
         position: relative;
+        display: flex;
         font-size: 1.5rem;
+        justify-content: space-around;
         align-items: center;
         font-style: normal;
         font-family: 'Aclonica';
         color: #FFFFFF;
         /* padding-left: 40px;*/
-        padding-top: 10px; 
+        padding-top: 10px;
+        
+        
+
     }
     .login{
         position: relative;
-        display: inline;
-        gap: 2.5%;
-        padding-left: 7%;
+        
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        min-width: 20%;
+        min-height: auto;
+        gap: 1.5%;
+        /* left: 5%; */
+        
+        
     }
     .login a{
         position: relative;
         color: #FFFFFF;
+        /* left: 20%; */
+        /* right: 120%; */
+        /* min-width: 50%; */
+        
         /* height: 70%; */
         text-decoration: none;
     }
     .login a button{
         /* position: absolute; */
-        
+        position: relative;
+        /* left: 30%; */
+        /* right: 220%; */
         background: #720201;
         color: #FFFFFF;
         border-radius: 10%;
-        width:12vh;
-        height:4vh;
+        width: 70px;
     }
     .designs{
         position: relative;
@@ -61,7 +81,7 @@
         vertical-align:top;
         max-width: 250%;
         max-height: auto;
-        margin-left: -10%;
+        left: -15%;
         
     }
     .designs .text {
@@ -78,15 +98,302 @@
         line-height: 79px;
     }
     .designs .design-2{
+        position: relative;
         flex: 3 0 0%;
-        margin-left: auto;
-        right: 0;
+        left: auto;
+        
     }
-    .design-2 > img{
+    .design-2 img{
         position: relative;
         vertical-align: top;
         max-width: 200%;
-        max-height: 400px;
+        max-height: auto;
+        right: 90%;
+        
+    }
+    .text button{
+        margin-top: 10px;
+        background: #FFC7C7;
+        color: #3A3A3A;
+        font-weight: 400;
+        font-size: 1.5rem;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        height: 78%;
+        width: 100%;
+        border-radius: 40px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        grid-template-rows: 12fr;
+        justify-items: center;
+        /* margin-top: 10%; */
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .players img{
+        position: relative;
+        max-width: 25.5%;
+        margin-top: 10%;
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 621px) and (max-width:890px) {
+    
+    html{
+        overflow: hidden;
+        font-size:50%;
+    }
+    body{
+        overflow: hidden;
+        font-size: 1rem;
+        background-image: url("/images/red.png");
+    }
+    .navbar{
+        position: relative;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        min-width: 80%;
+        min-height: auto;
+        
+    }
+    .kala-kendra{
+        position: relative;
+        display: flex;
+        font-size: 4rem;
+        justify-content: space-around;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        color: #FFFFFF;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .login{
+        word-spacing: 10px;
+        float: right;
+        padding-top: 10px;
+        min-width: 20%;
+        padding-right: 20px;
+    }
+    a > button{
+        position: relative;
+        background: #720201;
+        color: #FFFFFF;
+        border-radius: 18px;
+        height: 42px;
+        width: 90px;
+    }
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .designs{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    
+    }
+    .designs > .design-1{
+        flex: 3 0 0%;
+        text-align:left;
+    }
+    .design-1 > img{
+        vertical-align:top;/* here */
+        max-width: 220%;
+        max-height: auto;
+        margin-left: -10px;
+        
+    }
+    .designs > .text {
+        
+
+        position:relative;
+        flex: 16.5 0 0%;
+        margin:auto 0;
+        text-align: center;
+        font-size: 5rem;
+        color: #FFFFFF;
+        font-family: 'Aclonica';
+        justify-content: start;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 79px;
+    }
+    .designs > .design-2{
+        position: relative;
+        flex: 3 0 0%;
+        margin-left: auto;
+
+        /* position: relative;
+        flex: 3 0 0%;
+        left: auto; */
+    }
+    .design-2 > img{
+        position: absolute;
+        left: -100%;
+        max-width: 200%;
+        max-height: auto;
+        
+    }
+    .text button{
+        margin-top: 10px;
+        background: #FFC7C7;
+        color: #3A3A3A;
+        font-weight: 400;
+        font-size: 24px;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        height: 82px;
+        width: 250px;
+        border-radius: 40px;
+    }
+    .players{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        min-width:50% ;
+        min-height: auto;
+
+        /* display: grid;
+        grid-template-columns: 6fr 4fr;
+        grid-template-rows: 12fr;
+        justify-items: center;
+        /* margin-top: 10%; 
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .players img{
+        min-width: 5%;
+
+        /* position: relative;
+        max-width: 25.5%;
+        margin-top: 10%; */
+    
+    }
+}
+
+@media only screen and (min-width:373px) and (max-width:620px)
+{  
+    html { 
+        overflow: hidden;
+        font-size:60%; }
+    body{
+        overflow: hidden;
+        font-size: 1rem;
+        background-image: url("/images/red.png");
+    }
+    .navbar{
+        position: relative;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+        min-width: 90%;
+        min-height: auto;
+    }
+    .kala-kendra{
+        position: relative;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: space-around;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        color: #FFFFFF;
+        /* padding-left: 40px;*/
+        padding-top: 10px;
+        
+        
+
+    }
+    .login{
+        position: relative;
+        
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        min-width: 20%;
+        min-height: auto;
+        gap: 1.5%;
+        /* left: 5%; */
+        
+        
+    }
+    .login a{
+        position: relative;
+        color: #FFFFFF;
+        /* left: 20%; */
+        /* right: 120%; */
+        /* min-width: 50%; */
+        
+        /* height: 70%; */
+        text-decoration: none;
+    }
+    .login a button{
+        /* position: absolute; */
+        position: relative;
+        /* left: 30%; */
+        /* right: 220%; */
+        background: #720201;
+        color: #FFFFFF;
+        border-radius: 10%;
+        width: 70px;
+    }
+    .designs{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .designs .design-1{
+        flex: 3 0 0%;
+        text-align:left;
+    }
+    .design-1 img{
+        position:relative;
+        vertical-align:top;
+        max-width: 250%;
+        max-height: auto;
+        left: -15%;
+        
+    }
+    .designs .text {
+        position:relative;
+        flex: 6.5 0 0%;
+        margin:auto 0;
+        text-align: center;
+        font-size: 2rem;
+        color: #FFFFFF;
+        font-family: 'Aclonica';
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 79px;
+    }
+    .designs .design-2{
+        position: relative;
+        flex: 3 0 0%;
+        left: auto;
+        
+    }
+    .design-2 img{
+        position: relative;
+        vertical-align: top;
+        max-width: 250%;
+        max-height: auto;
         right: 90%;
         
     }
@@ -112,6 +419,112 @@
     }
     .players img{
         width: 11.5%;
+    
+    }
+}
+@media only screen and (min-width: 890px) {
+    
+    body{
+        background-image: url("/images/red.png");
+    }
+    .navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .kala-kendra{
+        font-size: 30px;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        color: #FFFFFF;
+        height: 44px;
+        width: 286px;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .login{
+        word-spacing: 10px;
+        float: right;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    a > button{
+        background: #720201;
+        color: #FFFFFF;
+        border-radius: 18px;
+        height: 42px;
+        width: 130px;
+    }
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .designs{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: 0px;
+    
+    }
+    .designs > .design-1{
+        flex: 3 0 0%;
+        text-align:left;
+    }
+    .design-1 > img{
+        position:relative;
+        vertical-align:top;
+        max-width: 250%;
+        max-height: auto;
+        left: -15%;
+        
+    }
+    .designs > .text {
+        position:relative;
+        flex: 15.5 0 0%;
+        margin:auto 0;
+        text-align: center;
+        font-size: 5rem;
+        color: #FFFFFF;
+        font-family: 'Aclonica';
+        justify-content: start;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 79px;
+        left: 6%;
+    }
+    .designs > .design-2{
+        position: absolute;
+        flex: 3 0 0%;
+        margin-left: auto;
+        right: 0;
+    }
+    .design-2 > img{
+        vertical-align:top;/* here */
+        max-width: 100%;
+        max-height: 400px;
+        
+    }
+    .text button{
+        margin-top: 10px;
+        background: #FFC7C7;
+        color: #3A3A3A;
+        font-weight: 400;
+        font-size: 24px;
+        align-items: center;
+        font-style: normal;
+        font-family: 'Aclonica';
+        height: 82px;
+        width: 250px;
+        border-radius: 40px;
+    }
+    .players{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin: 0px;
+    }
+    .players img{
+        max-height: 250px;
     
     }
 }

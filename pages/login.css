@@ -110,3 +110,69 @@ form i{
     color: #FFFFFF;
     
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+                    only screen and (min--moz-device-pixel-ratio: 2),
+                    only screen and (-o-min-device-pixel-ratio: 2/1),
+                    only screen and (min-device-pixel-ratio: 2)
+{
+    html{
+        overflow: hidden;
+    }
+    body{
+        overflow: hidden;
+    }
+    .all{
+        position: relative;
+    }
+    .img1{
+        width: 50%;
+        left: -24%;
+        top: -9%;
+        height: 50%;
+    }
+    .img1 > img{
+        height: 80%;
+        width: 100%;
+        left: 20%;
+        transform: rotate(26deg);
+    }
+    .form{
+        position: relative;
+        width: 60%;
+        border: 1%;
+        top: 20px;
+        
+    }
+    .form form{
+        position: relative;
+    }
+    .form p{
+        font-size: 2rem;
+    }
+    .form label{
+        font-size: 1rem;
+        font-family:'Aclonica' ;
+        padding-left: 1%;
+        padding-bottom: 10px;
+    }
+    .form  span{
+        position: absolute;
+        left: -95%;
+        top: 60%;
+    }
+    .form span a{
+        position: relative;
+    }
+    .form a > button{
+        position: relative;
+        font-size: 1.25rem;
+        left: -110%;
+    }
+    .form form .no-account {
+        position: relative;
+        left: -55%;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Inter';
+    }
+}
